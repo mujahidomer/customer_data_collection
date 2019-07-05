@@ -2,10 +2,11 @@
 
 #### This is a simple project that takes the information of customers from various Promoters & store it in Firestore. 
 
-### Methods Implemented so far
+### METHODS USED SO FAR
 - Flutter Firebase Authentication using **Provider Package**
 - Firestore **Transaction method** data collection & Instantiation
 
+------------
 #### DONE
 - [x] Flutter Firebase Integration
 - [x] Firebase Authentication
