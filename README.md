@@ -1,16 +1,28 @@
-# data_collection
+# Customer Data Collection
 
-A new Flutter project.
+#### This is a simple project that takes the information of customers from various Promoters & store it in Firestore. 
 
-## Getting Started
+### Methods Implemented so far
+- Flutter Firebase Authentication using **Provider Package**
+- Firestore **Transaction method** data collection & Instantiation
 
-This project is a starting point for a Flutter application.
+#### DONE
+- [x] Flutter Firebase Integration
+- [x] Firebase Authentication
+	- [x] Sign In/Up with email & password
+	- [x] Sign In/Up with Google
+	- [x] AutoCreate user-instance when created
+- [x] Data Retrieval
+- [x] Designed Form for Data In-take
+	- [x] Implemented Radio/Checkbox items as well
+	- [x] Firestore 'customer' data instantiated on SUBMIT
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+#### TO-DO
+- [ ] Retrieve & save current userID on each FORM SUBMIT *(so that only those customers who were added by certain promoters can be filtered)*
+- [ ] Get Data retrieval details from client & implement 
+- [ ] DESIGN
+	- [ ] Design & Display Main HomePage View
+	- [ ] Design Profile View
+- [ ] Add extra page to get more Details of Promoter *(details also from client)*
+- [ ] Implement Firestore search with predictions
+- [ ] Configure for iOS devices
